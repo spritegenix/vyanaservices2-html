@@ -1,0 +1,31 @@
+body {
+	overflow-x: hidden;
+	direction: rtl;
+}
+
+.owl-carousel {
+	direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+	direction: rtl;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+	text-align: right;
+}
+
+.list-unstyled {
+	padding-right: 0;
+}
+
+.contact-one__img {
+	background-color: transparent;
+	clip-path: none;
+}
+
+.team-one__social {
+	padding-right: 15px;
+}

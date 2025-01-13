@@ -1,0 +1,156 @@
+.cta-one__arrow a,
+.services-one,
+.about-one,
+.feature-three,
+.portfolio-one,
+.testimonial-one,
+.team-one,
+.award-one,
+.why-choose-one,
+.blog-one,
+.cta-one,
+.brand-one {
+    background-color: #101010;
+}
+
+.about-one__shape-1 {
+    opacity: .20;
+}
+
+.section-title__tagline,
+.about-one__text-2,
+.about-one__progress .count-text,
+.about-one__user-content p,
+.testimonial-one__left-text,
+.team-one__name-box p,
+.team-one__arrow a,
+.award-one__text,
+.award-one__text-2,
+.why-choose-one__text-2,
+.blog-one__meta li p,
+.blog-one__btn-box>a>span,
+.blog-one__btn,
+.brand-one__title {
+    color: #595959;
+}
+
+.section-title__title,
+.about-one__points-title h3,
+.about-one__progress-title,
+.about-one__user-content h4,
+.feature-three__title,
+.testimonial-one__ratting-box p,
+.testimonial-one__client-info h3,
+.team-one__name-box h3 a,
+.award-one__title,
+.award-one__sub-title,
+.why-choose-one__points li .text p,
+.blog-one__title>a,
+.cta-one__title {
+    color: var(--aspro-white);
+}
+
+.about-one__progress .bar {
+    background-color: rgba(var(--aspro-white-rgb), .10);
+}
+
+.testimonial-one__inner {
+    background-color: #161616;
+}
+
+.testimonial-one__bg {
+    mix-blend-mode: color-burn;
+    opacity: .20;
+}
+
+.testimonial-one__single {
+    background-color: var(--aspro-black);
+}
+
+.testimonial-one__client-info-and-quote {
+    border-bottom: 1px solid rgba(var(--aspro-white-rgb), .10);
+}
+
+.testimonial-one__client-info-and-quote::before {
+    bottom: -8px;
+    border-top: 7px solid rgba(var(--aspro-white-rgb), .10);
+}
+
+.testimonial-one__single::before {
+    border-top: 40px solid var(--aspro-black);
+}
+
+.award-one__inner {
+    border-top: 1px solid #282828;
+}
+
+.award-one__list li::after {
+    background-color: #282828;
+}
+
+.contact-one {
+    background-color: #161616;
+}
+
+.contact-one__shape-5 {
+    opacity: 0.03;
+}
+
+.contact-one__form-input-box input[type="text"],
+.contact-one__form-input-box input[type="email"],
+.contact-one__form-input-box textarea {
+    background-color: var(--aspro-black);
+    color: #595959;
+}
+
+.contact-one__form-input-box .bootstrap-select>.dropdown-toggle {
+    background-color: var(--aspro-black) !important;
+    color: #595959 !important;
+}
+
+.contact-one__form-input-box .bootstrap-select>.dropdown-toggle:before {
+    color: #595959;
+}
+
+.cta-one__inner-content {
+    background-color: var(--aspro-black);
+}
+
+.cta-one__shape-1 {
+    opacity: 0.05;
+}
+
+.brand-one__title:before,
+.brand-one__title:after {
+    background-color: rgba(var(--aspro-white-rgb), .10);
+}
+
+.about-one__img-box {
+    background-color: #101010;
+    z-index: 2;
+}
+
+.about-one__img {
+    mix-blend-mode: luminosity;
+    z-index: 2;
+}
+
+.about-one__icon {
+    z-index: 3;
+}
+
+.about-one__shape-1 {
+    opacity: .20;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
