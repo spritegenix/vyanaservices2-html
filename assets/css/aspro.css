@@ -3197,7 +3197,8 @@ ul {
   mix-blend-mode: luminosity;
   transition: all 500ms ease;
   transform: scale(1);
-  height: 30rem;
+  /* height: 30rem; */
+  object-fit: cover;
   
 }
 
