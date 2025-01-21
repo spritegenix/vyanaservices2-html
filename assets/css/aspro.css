@@ -4241,7 +4241,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 113px 0 111px;
+  padding: 113px 0 20px;
 }
 
 .footer-widget__title-box {
@@ -8302,7 +8302,10 @@ ul {
 .smillar-portfolio__img img {
   width: 100%;
   mix-blend-mode: luminosity;
+  height: 20rem;
+  object-fit: cover;
 }
+
 
 .smillar-portfolio__content {
   position: absolute;
