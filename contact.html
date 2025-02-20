@@ -321,12 +321,12 @@
                     <div class="col-xl-7 col-lg-6">
                         <div class="contact-page__right">
                             <div class="contact-page__form-box">
-                                <form action="assets/inc/sendemail.php"
+                                <form action="mail.php" id="contact-form" method="POST"
                                     class="contact-page__form contact-form-validated" novalidate="novalidate">
                                     <div class="row">
                                         <div class="col-xl-6">
                                             <div class="contact-page__input-box">
-                                                <input type="text" placeholder="First Name" name="first-name">
+                                                <input type="text" placeholder="First Name" name="name">
                                             </div>
                                         </div>
                                         <div class="col-xl-6">
@@ -341,7 +341,7 @@
                                         </div>
                                         <div class="col-xl-6">
                                             <div class="contact-page__input-box">
-                                                <input type="text" placeholder="Phone number" name="phone">
+                                                <input type="text" placeholder="Phone number" name="mblno">
                                             </div>
                                         </div>
                                         <!-- <div class="col-xl-6">
@@ -363,9 +363,10 @@
                                                 <textarea name="message" placeholder="Write Comment"></textarea>
                                             </div>
                                             <div class="contact-page__btn-box">
-                                                <button type="submit" class="thm-btn contact-page__btn">Send a
+                                                <button type="submit" id="submit" class="thm-btn contact-page__btn">Send a
                                                     Message</button>
                                             </div>
+                                            <div class="ajax-response"></div>
                                         </div>
                                     </div>
                                 </form>
@@ -566,7 +567,7 @@
 
 
 
-
+    <script src="assets/js/ajax-form.js"></script>
     <!-- template js -->
     <script src="assets/js/aspro.js"></script>
 </body>

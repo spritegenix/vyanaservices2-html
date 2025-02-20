@@ -1028,70 +1028,7 @@
         </section>
         
 
-        <!--Counter One Start-->
-        <section class="counter-one">
-            <div class="counter-one__bg" style="background-image: url(assets/images/backgrounds/counter-one-bg.jpg);">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="counter-one__single">
-                            <div class="counter-one__icon">
-                                <span class="icon-new-project"></span>
-                            </div>
-                            <div class="counter-one__count count-box">
-                                <h3 class="count-text" data-stop="100" data-speed="1500">00</h3>
-                                <!-- <span>k</span> -->
-                            </div>
-                            <p class="counter-one__text">Projects completed</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="counter-one__single counter-one__single-two">
-                            <div class="counter-one__icon">
-                                <span class="icon-trophy"></span>
-                            </div>
-                            <div class="counter-one__count count-box">
-                                <h3 class="count-text" data-stop="40" data-speed="1500">00</h3>
-                            </div>
-                            <p class="counter-one__text">Honorable awards</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="counter-one__single">
-                            <div class="counter-one__icon">
-                                <span class="icon-recommend"></span>
-                            </div>
-                            <div class="counter-one__count count-box">
-                                <h3 class="count-text" data-stop="60" data-speed="1500">00</h3>
-                                <!-- <span>k</span> -->
-                            </div>
-                            <p class="counter-one__text">Satisfied customers</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="counter-one__single counter-one__single-four">
-                            <div class="counter-one__icon">
-                                <span class="icon-consulting"></span>
-                            </div>
-                            <div class="counter-one__count count-box">
-                                <h3 class="count-text" data-stop="20" data-speed="1500">00</h3>
-                            </div>
-                            <p class="counter-one__text">Professional team</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                </div>
-            </div>
-        </section>
-        <!--Counter One End-->
+
 
         <!--Contact One Start-->
         <section class="contact-one">
@@ -1127,12 +1064,12 @@
                                 <h2 class="section-title__title">Let’s work together</h2>
                             </div>
                             <div class="contact-one__form-box">
-                                <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated"
+                                <form action="mail.php" id="contact-form"  method="POST" class="contact-one__form contact-form-validated"
                                     novalidate="novalidate">
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-6">
                                             <div class="contact-one__form-input-box">
-                                                <input type="text" placeholder="First Name" name="first-name">
+                                                <input type="text" placeholder="First Name" name="name">
                                             </div>
 
                                         </div>
@@ -1149,7 +1086,7 @@
                                         </div>
                                         <div class="col-xl-6 col-lg-6">
                                             <div class="contact-one__form-input-box">
-                                                <input type="text" placeholder="Phone number" name="Phone">
+                                                <input type="text" placeholder="Phone number" name="mblno">
                                             </div>
                                         </div>
                                         <!-- <div class="col-xl-6 col-lg-6">
@@ -1169,9 +1106,10 @@
                                                 <textarea name="message" placeholder="Write  a message"></textarea>
                                             </div>
                                             <div class="contact-one__btn-box">
-                                                <button type="submit" class="thm-btn contact-one__btn">Send a
+                                                <button type="submit" id="submit" class="thm-btn contact-one__btn">Send a
                                                     Message</button>
                                             </div>
+                                            <div class="ajax-response"></div>
                                         </div>
                                     </div>
                                 </form>
@@ -1315,73 +1253,6 @@
             </div>
         </section>
         <!--CTA One End-->
-
-        <!--Brand One Start-->
-        <!-- <section class="brand-one">
-            <div class="container">
-                <h4 class="brand-one__title">1K+ Brands Trust Us</h4>
-                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                    "0": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 1
-                    },
-                    "375": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 2
-                    },
-                    "575": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 3
-                    },
-                    "767": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 4
-                    },
-                    "991": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 5
-                    },
-                    "1199": {
-                        "spaceBetween": 100,
-                        "slidesPerView": 5
-                    }
-                }}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-4.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-5.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-4.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--Brand One End-->
 
         <!--Site Footer Start-->
         <footer class="site-footer">
@@ -1562,6 +1433,8 @@
 
 
 
+
+    <script src="assets/js/ajax-form.js"></script>
 
     <!-- template js -->
     <script src="assets/js/aspro.js"></script>
